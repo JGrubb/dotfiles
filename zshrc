@@ -43,3 +43,5 @@ alias sz='source ~/.zshrc'
 alias s='source'
 [[ $TERM == "screen" ]] && export -p TERM="screen-256color"
 alias tmux="TERM=screen-256color-bce tmux"
+export VISUAL=vim
+export EDITOR=vim
