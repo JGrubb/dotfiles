@@ -15,3 +15,4 @@ nmap <silent> <A-Left> :wincmd h<CR>
 nmap <silent> <A-Right> :wincmd l<CR>
 
 colorscheme nature
+set pastetoggle=<F2>
