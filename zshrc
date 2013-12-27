@@ -1,4 +1,3 @@
-
 # recommended by brew doctor
 export PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin'
 # Path to your oh-my-zsh configuration.
@@ -45,5 +44,9 @@ alias s='source'
 alias tmux="TERM=screen-256color-bce tmux"
 export VISUAL=vim
 export EDITOR=vim
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+#export PATH="$HOME/.rbenv/bin:$PATH"
+#eval "$(rbenv init -)"
+alias tn='tmux new -s'
+alias tls='tmux list-sessions'
+alias ta='tmux attach -t'
+alias ts='tmux switch -s'
