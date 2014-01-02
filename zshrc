@@ -8,7 +8,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="terminalparty"
+ZSH_THEME="jreese"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -32,10 +32,10 @@ ZSH_THEME="terminalparty"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git rails3 drush bundler tmux)
+plugins=(git rails3 drush tmux lol bundler)
 
 source $ZSH/oh-my-zsh.sh
-source ~/.zshenv
+# source ~/.zshenv
 
 # Customize to your needs...
 alias c='clear'
@@ -43,5 +43,15 @@ alias sz='source ~/.zshrc'
 alias s='source'
 [[ $TERM == "screen" ]] && export -p TERM="screen-256color"
 alias tmux="TERM=screen-256color-bce tmux"
-export VISUAL=vim
-export EDITOR=vim
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+alias tn='tmux new -s'
+alias tls='tmux list-sessions'
+alias ta='tmux attach -t'
+alias ts='tmux switch -s'
+alias vi='vim'
+alias themes='cd ~/ABM/trunk/docroot/sites/all/themes/adaptivetheme'
+alias modules='cd ~/ABM/trunk/docroot/sites/all/modules'
+alias sites='cd ~/ABM/trunk/docroot/sites/'
+export EDITOR=`which vim`
+alias lynx='/Applications/Lynxlet.app/Contents/Resources/lynx/bin/lynx'
