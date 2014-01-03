@@ -23,3 +23,4 @@ nmap <silent> <A-Right> :wincmd l<CR>
 nmap <F8> :TagbarToggle<CR>
 
 colorscheme Tomorrow-Night-Bright
+set pastetoggle=<F2>

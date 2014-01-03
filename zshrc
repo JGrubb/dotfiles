@@ -1,4 +1,3 @@
-
 # recommended by brew doctor
 export PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin'
 # Path to your oh-my-zsh configuration.
@@ -8,7 +7,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="jreese"
+ZSH_THEME="steeef"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -45,13 +44,17 @@ alias s='source'
 alias tmux="TERM=screen-256color-bce tmux"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+export VISUAL=vim
+export EDITOR=vim
+#export PATH="$HOME/.rbenv/bin:$PATH"
+#eval "$(rbenv init -)"
 alias tn='tmux new -s'
 alias tls='tmux list-sessions'
 alias ta='tmux attach -t'
 alias ts='tmux switch -s'
 alias vi='vim'
-alias themes='cd ~/ABM/trunk/docroot/sites/all/themes/adaptivetheme'
-alias modules='cd ~/ABM/trunk/docroot/sites/all/modules'
-alias sites='cd ~/ABM/trunk/docroot/sites/'
-export EDITOR=`which vim`
-alias lynx='/Applications/Lynxlet.app/Contents/Resources/lynx/bin/lynx'
+#alias themes='cd ~/ABM/trunk/docroot/sites/all/themes/adaptivetheme'
+#alias modules='cd ~/ABM/trunk/docroot/sites/all/modules'
+#alias sites='cd ~/ABM/trunk/docroot/sites/'
+#export EDITOR=`which vim`
+#alias lynx='/Applications/Lynxlet.app/Contents/Resources/lynx/bin/lynx'
