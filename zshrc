@@ -7,7 +7,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="steeef"
+ZSH_THEME="re5et"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -58,3 +58,6 @@ alias vi='vim'
 #alias sites='cd ~/ABM/trunk/docroot/sites/'
 #export EDITOR=`which vim`
 #alias lynx='/Applications/Lynxlet.app/Contents/Resources/lynx/bin/lynx'
+export devise_key='ed714f2cd78687f24b0076652853f9baf11687da057f7dd1906d972eb47d060f249259c818a602e5ba5f28d9b12dbe2bc07808a5332dd22f3ee226fa719438ff'
+alias server='python -m SimpleHTTPServer'
+alias :e='vim'
