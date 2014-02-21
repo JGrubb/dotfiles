@@ -22,5 +22,5 @@ nmap <silent> <A-Left> :wincmd h<CR>
 nmap <silent> <A-Right> :wincmd l<CR>
 nmap <F8> :TagbarToggle<CR>
 
-colorscheme Tomorrow-Night-Bright
+colorscheme railscasts
 set pastetoggle=<F2>

@@ -7,7 +7,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="steeef"
+ZSH_THEME="jnrowe"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -35,6 +35,7 @@ plugins=(git rails3 drush tmux lol bundler)
 
 source $ZSH/oh-my-zsh.sh
 # source ~/.zshenv
+source ~/.zshtokens
 
 # Customize to your needs...
 alias c='clear'
@@ -53,8 +54,8 @@ alias tls='tmux list-sessions'
 alias ta='tmux attach -t'
 alias ts='tmux switch -s'
 alias vi='vim'
-#alias themes='cd ~/ABM/trunk/docroot/sites/all/themes/adaptivetheme'
-#alias modules='cd ~/ABM/trunk/docroot/sites/all/modules'
-#alias sites='cd ~/ABM/trunk/docroot/sites/'
-#export EDITOR=`which vim`
-#alias lynx='/Applications/Lynxlet.app/Contents/Resources/lynx/bin/lynx'
+alias themes='cd ~/ABM/trunk/docroot/sites/all/themes/adaptivetheme'
+alias modules='cd ~/ABM/trunk/docroot/sites/all/modules'
+alias sites='cd ~/ABM/trunk/docroot/sites/'
+export EDITOR=`which vim`
+alias lynx='/Applications/Lynxlet.app/Contents/Resources/lynx/bin/lynx'
