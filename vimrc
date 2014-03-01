@@ -23,5 +23,5 @@ nmap <silent> <A-Right> :wincmd l<CR>
 nmap <F8> :TagbarToggle<CR>
 inoremap <BS> <c-r>=Backspace()<CR>
 
-colorscheme Tomorrow-Night-Bright
+colorscheme Sunburst
 set pastetoggle=<F2>
