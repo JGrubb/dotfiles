@@ -35,6 +35,7 @@ plugins=(git rails3 drush tmux lol bundler)
 
 source $ZSH/oh-my-zsh.sh
 # source ~/.zshenv
+source ~/.zshtokens
 
 # Customize to your needs...
 alias c='clear'
@@ -53,11 +54,8 @@ alias tls='tmux list-sessions'
 alias ta='tmux attach -t'
 alias ts='tmux switch -s'
 alias vi='vim'
-#alias themes='cd ~/ABM/trunk/docroot/sites/all/themes/adaptivetheme'
-#alias modules='cd ~/ABM/trunk/docroot/sites/all/modules'
-#alias sites='cd ~/ABM/trunk/docroot/sites/'
-#export EDITOR=`which vim`
-#alias lynx='/Applications/Lynxlet.app/Contents/Resources/lynx/bin/lynx'
-export devise_key='ed714f2cd78687f24b0076652853f9baf11687da057f7dd1906d972eb47d060f249259c818a602e5ba5f28d9b12dbe2bc07808a5332dd22f3ee226fa719438ff'
-alias server='python -m SimpleHTTPServer'
-alias :e='vim'
+alias themes='cd ~/ABM/trunk/docroot/sites/all/themes/adaptivetheme'
+alias modules='cd ~/ABM/trunk/docroot/sites/all/modules'
+alias sites='cd ~/ABM/trunk/docroot/sites/'
+export EDITOR=`which vim`
+alias lynx='/Applications/Lynxlet.app/Contents/Resources/lynx/bin/lynx'

@@ -23,5 +23,9 @@ nmap <silent> <A-Right> :wincmd l<CR>
 nmap <F8> :TagbarToggle<CR>
 inoremap <BS> <c-r>=Backspace()<CR>
 
+<<<<<<< HEAD
 colorscheme Sunburst
+=======
+colorscheme railscasts
+>>>>>>> f7373e0130c41c5f339fe0ab4d971680ce0c243e
 set pastetoggle=<F2>
