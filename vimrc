@@ -6,6 +6,16 @@ call pathogen#helptags()
 " End of vimrc-install additions.
 syntax on
 
+" Show syntax highlighting groups for word under cursor
+nmap <C-S-P> :call <SID>SynStack()<CR>
+function! <SID>SynStack()
+  if !exists("*synstack")
+    return
+  endif
+  echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
+endfunc
+
+
 set number
 set cindent
 set smartindent
@@ -23,9 +33,5 @@ nmap <silent> <A-Right> :wincmd l<CR>
 nmap <F8> :TagbarToggle<CR>
 inoremap <BS> <c-r>=Backspace()<CR>
 
-<<<<<<< HEAD
 colorscheme Sunburst
-=======
-colorscheme railscasts
->>>>>>> f7373e0130c41c5f339fe0ab4d971680ce0c243e
 set pastetoggle=<F2>
